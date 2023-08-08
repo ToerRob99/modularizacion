@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "p-modulos"
 version = "0.1.0"
-description = "practicas de curso django modularizcion"
+description = "practicas de curso django modularizacion"
 authors = ["Roberto Parra Mesino <robertoparra99@hotmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "p_modulos"}]
+packages = [{include = "modularizacion"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
