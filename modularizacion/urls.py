@@ -23,4 +23,5 @@ urlpatterns = [
     path('post/', include('post.urls')),
     path('one/', include('onetoone.urls')),
     path('many/', include('manytoone.urls')),
+    path('many2/', include('manytomany.urls')),
 ]
