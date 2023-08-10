@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('comentarios/', include('comentarios.urls')),
     path('post/', include('post.urls')),
+    path('one/', include('onetoone.urls')),
 ]
