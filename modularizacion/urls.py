@@ -22,4 +22,5 @@ urlpatterns = [
     path('comentarios/', include('comentarios.urls')),
     path('post/', include('post.urls')),
     path('one/', include('onetoone.urls')),
+    path('many/', include('manytoone.urls')),
 ]

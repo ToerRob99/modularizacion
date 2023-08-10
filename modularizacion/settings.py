@@ -47,6 +47,7 @@ LOCAL_APPS = [
     'comentarios.apps.ComentariosConfig',
     'post.apps.PostConfig',
     'onetoone.apps.OnetooneConfig',
+    'manytoone.apps.ManytooneConfig'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
