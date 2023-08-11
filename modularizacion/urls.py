@@ -24,4 +24,5 @@ urlpatterns = [
     path('one/', include('onetoone.urls')),
     path('many/', include('manytoone.urls')),
     path('many2/', include('manytomany.urls')),
+    path('company/', include('company.urls')),
 ]

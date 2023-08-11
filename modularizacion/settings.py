@@ -49,7 +49,8 @@ LOCAL_APPS = [
     'post.apps.PostConfig',
     'onetoone.apps.OnetooneConfig',
     'manytoone.apps.ManytooneConfig',
-    'manytomany.apps.ManytomanyConfig'
+    'manytomany.apps.ManytomanyConfig',
+    'company.apps.CompanyConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
